@@ -1,0 +1,38 @@
+Start gatsby dev environment
+
+in gatsby repo:
+
+```
+yarn watch
+```
+
+In example project folder:
+
+```
+gatsby-dev
+```
+
+Serve example project
+
+```
+http-serve public
+```
+Delete previous build, and re-build example project:
+
+```
+rm -rf public && yarn build
+```
+
+Load localhost:8080
+
+Click on "Go to page 2"
+
+Edit page-3
+
+Delete previous build, and re-build example project:
+
+```
+rm -rf public && yarn build
+```
+
+Click on "Go to page 3"
